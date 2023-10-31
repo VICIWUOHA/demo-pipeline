@@ -1,2 +1,6 @@
-SELECT pin, state, name, amount
+SELECT
+    pin,
+    state,
+    name,
+    amount
 FROM stg.benefits
