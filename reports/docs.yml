@@ -1,0 +1,6 @@
+---
+version: 1.0
+type: ReportsConfig
+tables:
+  - name: benefits_reports_by_state
+    depends_on: [stg.benefits]
